@@ -784,6 +784,12 @@ body.dark-theme {
 
 /* You have to learn or make a project to unlock these icons! Study n learn more*/
 .locked {
+    /* filter: grayscale(1); */
+    opacity:0%;
+}
+
+.learner {
+    opacity: 100%;
     filter: grayscale(1);
 }
 
