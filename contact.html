@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google Webmaster tools -->
+     <meta name="google-site-verification" content="l8QHbqLDi6r2NECaCBWY1a_nDBMbf_8qTHBzzLQSYrI" />
     <title>StivsWorld2.0</title>
     <!-- Local CSS File -->
     <link rel="stylesheet" type="text/css" href="/css/style.css"></Link>
@@ -10,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Remix Icon Link -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Recaptcha backgroud script download -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <body>
 <!-- Header -->
 <header class="header header-pages bg-header" id="header">
@@ -62,7 +66,7 @@
             </h2>
 
             <div class="contact__page container grid">
-                <form action="" class="contact__form grid" id="contact-form">
+                <form action="" class="contact__form grid formcontact" id="contact-form">
                     <div class="contact__group grid">
                         <div class="contact__box">
                             <input type="text"  name="user_name" id="name" required placeholder="Please write your name" class="contact__input">
@@ -82,7 +86,6 @@
 
                             <p class="contact__message" id="contact-message"></p>
                             <button type="submit" class="contact__send button">Send your Message</button>
-
                 </form>
             </div>
         </section>
